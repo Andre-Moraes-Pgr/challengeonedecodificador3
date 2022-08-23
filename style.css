@@ -11,18 +11,23 @@ body {
 
 }
 
+header {
+    margin-left: 40px;
+
+}
+
 main {
     display: flex;
     
 }
 
+.botoes {
+
+
+}
+
 .encriptar {
     background-color: #0A3871;
-    height: 67px;
-    width: 328px;
-    left: 0px;
-    top: 0px;
-    border-radius: 24px;
-    padding: 24px;
-    
+    color: #FFFFFF;
+
 }
