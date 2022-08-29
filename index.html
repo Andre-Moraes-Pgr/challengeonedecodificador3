@@ -4,40 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <title>Codificador</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
 </head>
- 
-<header>
-    <img src="imagens/logo-letra-a-de-alura.png" alt="Logo da Alura">
-</header>
-
 <body>
+    <header>
+        <img src="/imagens/logo-letra-a-de-alura.png" alt="Logo da alura com a inicial da letra a">
+    </header>
     <main>
-        <!-- campo para o texto que vai ser criptografado/descriptografado-->
 
         <section>
-            <textarea class="input-texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="digite seu texto:"></textarea>
+            <div id="div-desaparece">
+                <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+            </div>
             <div class="botoes">
                 <button class="encriptar" onclick="btnEncriptar()">
-                    Criptografar</button>
-                    
+                    Criptografar
+                </button>
                 <button class="desencriptar" onclick="btnDesencriptar()">
-                    Descriptografar</button>
+                    Descriptografar
+                </button>
             </div>
         </section>
-
+        
         <section>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea class="mensagem" cols="18" rows="8"></textarea>
+           <div id="div-aparece">
+            <button class="copiar" onclick="copiar()">Copiar</button>
+           </div>
         </section>
-
-    <!-- botões para fazer a criptografia/descriptografia -->
-    - área para exibir o texto resultante.
-
-    # Extra!
-    Um rodapé com os dados da pessoa que desenvolveu o site! -->
-    </main>    
+        
+    </main>
+    <script src="script.js"></script>
 </body>
-
 </html>
