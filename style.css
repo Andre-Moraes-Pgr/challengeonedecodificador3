@@ -7,7 +7,7 @@
 
 
 body {
-    background-color: #E5E5E5;
+    background-color: #F3F5FC;
 }
 
 
@@ -17,8 +17,27 @@ main {
     margin-bottom: 50px;
 } 
 
+textarea {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+
+}
+
 .input-texto {
-    margin-top: 90px;
+    margin-top: 90px;   
+    background-color: #F3F5FC;
+    width: 680px;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
 }
 
 .mensagem {
